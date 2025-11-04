@@ -499,10 +499,10 @@ export default function App() {
                         color: "#0f172a",
                       }}
                       whileTap={{ scale: 0.95 }}
-                      className="flex items-center space-x-2 bg-green-400 text-gray-900 px-4 py-2 rounded-lg font-mono font-bold hover:bg-green-300 transition-colors text-sm cursor-pointer"
+                      className="flex items-center space-x-2 border border-gray-400 bg-green-400 text-gray-700 px-4 py-2 rounded-lg font-mono font-bold hover:bg-green-300 transition-colors text-sm cursor-pointer"
                     >
                       <FileDown size={14} />
-                      <p>Resume</p>
+                      <span>Resume</span>
                     </motion.a>
                     <motion.a
                       href="https://github.com/Saw-Kyaw-Myint-SKM"
