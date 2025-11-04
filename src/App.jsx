@@ -383,7 +383,7 @@ export default function App() {
                 </motion.h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-2 md:gap-4 gap-1">
                   {projects.map((project, index) => (
-                    <ProjectCard key={index} {...project} delay={index * 0.2} />
+                    <ProjectCard key={index} {...project} delay={0.4} />
                   ))}
                 </div>
               </MacTerminalWindow>
@@ -410,7 +410,7 @@ export default function App() {
                     <CertificationCard
                       key={index}
                       {...cert}
-                      delay={0.4 + index * 0.2}
+                      delay={index * 0.1}
                     />
                   ))}
                 </div>
