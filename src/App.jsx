@@ -8,7 +8,7 @@ import {
   AnimatePresence,
 } from "framer-motion";
 import { CertificationModal } from "./component/Modal/CertificationModal";
-import { HomeSection } from "./component/section/HomeSection";
+import { HomeSection } from "./component/Section/HomeSection";
 import { Navigation } from "./component/partials/Navigation";
 import { About } from "./component/Section/About";
 import { Projects } from "./component/Section/Projects";
